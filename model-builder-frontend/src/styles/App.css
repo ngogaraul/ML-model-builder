@@ -1,0 +1,14 @@
+.app-root {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.wizard-container {
+  background: #fff !important;
+  color: #000 !important;
+}

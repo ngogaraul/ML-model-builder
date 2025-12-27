@@ -1,0 +1,68 @@
+/* RESET DEFAULT BROWSER STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* LIGHT THEME ROOT */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #213547;               /* DARK TEXT */
+  background-color: #ffffff;    /* WHITE BACKGROUND */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #ffffff !important;
+  color: #213547 !important;
+}
+
+/* LINKS */
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: none;
+}
+a:hover {
+  color: #535bf2;
+}
+
+/* BUTTONS */
+button {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+button:hover {
+  background-color: #ececec;
+  border-color: #646cff;
+}
+
+/* HEADINGS */
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+/* TABLE FIX – ENSURE BLACK TEXT */
+table, th, td {
+  color: #000 !important;
+  background: #fff !important;
+  border: 1px solid #ddd;
+}
+
