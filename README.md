@@ -75,18 +75,4 @@ Project structure notes
 - Trained models are saved as joblib files in `saved_models/` by default.
 - The frontend includes `README.docker.md` and `nginx.conf` if you want to containerize or serve the built app with Nginx.
 
-Adding your own datasets
-- Place CSVs into `datasets/` if you want to use them locally. Note: `.gitignore` excludes `datasets/*.csv` by default to avoid committing large data files.
 
-Suggested next steps
-- Update local git user config with your name/email:
-
-```powershell
-git config --local user.name "Your Name"
-git config --local user.email "you@domain.com"
-```
-
-- Consider adding a short `CONTRIBUTING.md` and license file.
-
-Contact / Credits
-- This project was developed as part of a machine learning course project. Update this README with your name and repository description before sharing.
